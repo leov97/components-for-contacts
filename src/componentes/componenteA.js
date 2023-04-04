@@ -7,17 +7,17 @@ const ComponenteA = () =>{
 
     const [contacto, setcontacto] =useState({
 
-    nombre:"Ronny",
-    apellido:"Portillo",
+    nombre:"juan",
+    apellido:"portillo",
     email:"juanito97@gmail.com",
     online:false,  
-    imagen: perfil
+    imagen: "https://via.placeholder.com/64"
 
     })
       
 return(
     <Fragment>
-    
+        <h1> CONTACTO</h1>
         <ComponenteB 
         contacto={contacto} 
         setcontacto={setcontacto}
