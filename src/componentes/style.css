@@ -3,22 +3,44 @@ width: 10px;
 height: 10px;
 border-radius: 100%;
 float: right;
+margin-top: 10px;
+margin-right: 10px;
+
 }
  
 img{
-    float: left ;
+    margin-top: 30px;
+    float: center ;
+    border-radius: 100%;
+   
 }
 
 .perfil{
-    background: rgb(9, 182, 35);
-    background: linear-gradient(to right, #9e90d5, rgb(255, 255, 255));
+    background: white;
+    background: linear-gradient(to right, rgb(0, 204, 255),rgb(95, 208, 135), rgb(0, 187, 255));
     color: black;
     border-radius: 10px;
     width:  400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 
 }
 
 .contactos{
 margin-top: 80px;
-text-align: left;
+text-align: center;
 }
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #check-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
