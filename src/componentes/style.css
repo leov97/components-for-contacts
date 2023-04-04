@@ -1,0 +1,24 @@
+.state{
+width: 10px;
+height: 10px;
+border-radius: 100%;
+float: right;
+}
+ 
+img{
+    float: left ;
+}
+
+.perfil{
+    background: rgb(9, 182, 35);
+    background: linear-gradient(to right, #9e90d5, rgb(255, 255, 255));
+    color: black;
+    border-radius: 10px;
+    width:  400px;
+
+}
+
+.contactos{
+margin-top: 80px;
+text-align: left;
+}
