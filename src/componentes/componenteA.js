@@ -11,13 +11,13 @@ const ComponenteA = () =>{
     apellido:"portillo",
     email:"juanito97@gmail.com",
     online:false,  
-    imagen: "https://via.placeholder.com/64"
+    imagen: perfil
 
     })
       
 return(
     <Fragment>
-        <h1> CONTACTO</h1>
+     
         <ComponenteB 
         contacto={contacto} 
         setcontacto={setcontacto}

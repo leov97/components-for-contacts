@@ -12,12 +12,14 @@ const ComponenteB = ({contacto, setcontacto}) => {
 
     return(
         <div className="perfil" >
-            <img src= "https://via.placeholder.com/64" />
+
+
+            <img src= {contacto.imagen} />
+
             <div  className="state" style={{backgroundColor: contacto.online ? "green" : "red"}} ></div>
 
             <div  className="contactos">
-            <h4> Nombre: {contacto.nombre}</h4>
-            <h4> Apellido: {contacto.apellido}</h4>
+            <h4>  {contacto.nombre} {contacto.apellido}</h4>
             <h4> Email: {contacto.email}</h4>
           
             </div>
